@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Vantablack: A Regex Hexadecimal Turorial
 
-Introductory paragraph (replace this with your text)
+If you've ever worked with web design, you've likely encountered hexadecimal color codes. These codes, like #ffff (white) or #000000 (black), define colors for websites. But how do we ensure that a color code is valid? This is where regex, or regular expressions, come into play.
 
 ## Summary
 
