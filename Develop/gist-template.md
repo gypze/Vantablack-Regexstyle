@@ -20,6 +20,12 @@ The regex /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ is designed to validate hexadicimal co
 
 ### Anchors
 
+^
+Marks the start of the string. Ensures matching begins at the start of the input. 
+
+$
+Marks the end of the string. Ensures no extra characters exist after the hex code. 
+
 ### Quantifiers
 
 ### OR Operator
