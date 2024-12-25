@@ -32,10 +32,13 @@ Marks the end of the string. Ensures no extra characters exist after the hex cod
 Specify the exact number of characters to match. {6} matches excacty 6 characters, while {3} matches exactly 3 characters. 
 
 ### OR Operator
+|
+Acts as an Or operator. Matches either the 6-character sequence or the 3-character sequence. 
 
 ### Character Classes
+{a-f 0-9}
+Matches any character from a to f (case-insensitive) or any digit from 0 to 9 These are the valid caharacters for a hexadicmal color code. 
 
-### Flags
 
 ### Grouping and Capturing
 
