@@ -32,9 +32,5 @@ To get started, clone this repository to your local machine:
 ```bash
 git clone https://github.com/gypze/vantablack-regex-tutorial.git
 
-## Usage
-This tutorial provides a breakdown of the regular expression /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ used to validate hexadecimal color codes. Follow the explanations step by step as you learn how each part of the regex works and how it validates color codes that are used in web desig
-Open the README.md file.
-Follow along with the detailed explanations for each component of the regex.
-Try using the regex in any JavaScript console or regex testing tool to experiment with different color codes.
+
 
