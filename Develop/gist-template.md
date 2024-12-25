@@ -28,6 +28,9 @@ Marks the end of the string. Ensures no extra characters exist after the hex cod
 
 ### Quantifiers
 
+{6} and {3}
+Specify the exact number of characters to match. {6} matches excacty 6 characters, while {3} matches exactly 3 characters. 
+
 ### OR Operator
 
 ### Character Classes
