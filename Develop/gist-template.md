@@ -36,21 +36,47 @@ Specify the exact number of characters to match. {6} matches excacty 6 character
 Acts as an Or operator. Matches either the 6-character sequence or the 3-character sequence. 
 
 ### Character Classes
-{a-f 0-9}
+{a-f0-9}
 Matches any character from a to f (case-insensitive) or any digit from 0 to 9 These are the valid caharacters for a hexadicmal color code. 
 
 
 ### Grouping and Capturing
 
+()
+Groups parts of kthe regex togeter. in this case, ([a-f0-9]{6}|[a-f0-9]{3}) groups the two valid patterns (6 characters or 3 characters).
+
 ### Bracket Expressions
 
-### Greedy and Lazy Match
+#?
+The ? after the # makes the hash symbol optional. Matches both  #123456 and 123456.
+
 
 ### Boundaries
 
+These ensure that the regex matches the entire input string without any extra characters before or after the valid hex code.
+
+Examples
+
+ #123456
+ 
+123456
+
+#FFF
+
+FFF
+
+## Invalid Matches:
+
+ #123456 (only 5 characters)
+
+12345 (only 5 characters)
+
+#1234567 (7 characters)
+
+#xyz (invalid characters)
+
 ### Back-references
 
-### Look-ahead and Look-behind
 
 ## Author
 
