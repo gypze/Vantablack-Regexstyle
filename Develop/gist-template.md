@@ -21,22 +21,28 @@ The regex /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ is designed to validate hexadicimal co
 ### Anchors
 
 ^
+
 Marks the start of the string. Ensures matching begins at the start of the input. 
 
 $
+
 Marks the end of the string. Ensures no extra characters exist after the hex code. 
 
 ### Quantifiers
 
 {6} and {3}
+
 Specify the exact number of characters to match. {6} matches excacty 6 characters, while {3} matches exactly 3 characters. 
 
 ### OR Operator
 |
+
 Acts as an Or operator. Matches either the 6-character sequence or the 3-character sequence. 
 
 ### Character Classes
+
 {a-f0-9}
+
 Matches any character from a to f (case-insensitive) or any digit from 0 to 9 These are the valid caharacters for a hexadicmal color code. 
 
 
