@@ -89,4 +89,4 @@ FFF
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Gypze, I am an enthusiastic junior developer passionate about learning web development and sharing my knowledge with others. With a growing skill set in HTML, CSS, and JavaScript, I am dedicated to creating tutorials that make complex concepts accessible to beginners. Feel free to check out more of my work and projects on GitHub; https://github.com/gypze. 
