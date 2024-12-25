@@ -35,6 +35,7 @@ Marks the end of the string. Ensures no extra characters exist after the hex cod
 Specify the exact number of characters to match. {6} matches excacty 6 characters, while {3} matches exactly 3 characters. 
 
 ### OR Operator
+
 |
 
 Acts as an Or operator. Matches either the 6-character sequence or the 3-character sequence. 
@@ -49,11 +50,13 @@ Matches any character from a to f (case-insensitive) or any digit from 0 to 9 Th
 ### Grouping and Capturing
 
 ()
+
 Groups parts of kthe regex togeter. in this case, ([a-f0-9]{6}|[a-f0-9]{3}) groups the two valid patterns (6 characters or 3 characters).
 
 ### Bracket Expressions
 
 #?
+
 The ? after the # makes the hash symbol optional. Matches both  #123456 and 123456.
 
 
