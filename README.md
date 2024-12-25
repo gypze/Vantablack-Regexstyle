@@ -25,12 +25,6 @@ By the end, you'll not only master this specific regex, but you'll also walk awa
 - [Screenshot](#screenshot)
 - [Questions](#questions)
 
-## Installation
-
-To get started, clone this repository to your local machine:
-
-```bash
-git clone https://github.com/gypze/vantablack-regex-tutorial.git
 
 
 
