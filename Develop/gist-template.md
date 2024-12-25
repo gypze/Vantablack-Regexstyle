@@ -4,7 +4,7 @@ If you've ever worked with web design, you've likely encountered hexadecimal col
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ is designed to validate hexadicimal color codes. It ensures the code is either 3 or 6 characters long, optionally starts with a #, and only contains valid hecadicimal characters (0-9, a-f).
 
 ## Table of Contents
 
